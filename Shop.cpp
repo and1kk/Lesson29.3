@@ -17,6 +17,8 @@ void Shop::removeOvercoat(size_t index) {
 }
 
 
+
+
 void Shop::editSize(size_t index, string newSize) {
     if (index < shop.size()) {
         shop[index].setSize(newSize);
